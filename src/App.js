@@ -1,10 +1,11 @@
+import Card from "./components/Card";
 import Image from "./components/Image";
 
 function App() {
   return (
     <div>
-      <Image characterName={"Barry"} />
-      <Image characterName={"Sterling"} />
+      <Card characterName={"Barry"} />
+      <Card characterName={"Sterling"} />
     </div>
   );
 }

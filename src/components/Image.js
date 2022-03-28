@@ -6,7 +6,7 @@ function Image({ characterName }) {
     <img
       className="character-image"
       src={require(`../images/${characterName}.png`)}
-      alt={`$${characterName} from Archer`}
+      alt={`${characterName} from Archer`}
     />
   );
 }
