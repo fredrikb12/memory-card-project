@@ -5,52 +5,78 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Redressed", cursive;
+  font-family: "Roboto Slab", serif;
 }
 
 #content {
   height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 4fr;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   justify-items: center;
   align-items: center;
+  background-color: rgb(135, 165, 145);
 }
 
 #game-view {
   display: flex;
   flex-wrap: wrap;
-  align-items:flex-end;
+  align-items: center;
   gap: 15px;
   justify-content: space-around;
   padding: 15px;
+  min-height: 75%;
+}
+
+#header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  color: rgb(4, 0, 65);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  min-height: 15%;
+  font-size: 1.75rem;
+  width: 100%;
+  background-color: hsl(140, 35%, 59%);
+}
+
+#info-header {
+  text-align: center;
 }
 
 .character-image {
-  width: 200px;
-  height: 200px;
-  box-shadow: 0px 0px 15px 8px #4b5c00;
+  width: 175px;
+  height: 175px;
+  box-shadow: 0px 0px 15px 8px #606d61;
+  background-color: rgb(77, 82, 99);
 }
 
 .card {
-  width: clamp(250px, 20%, 300px);
+  width: clamp(235px, 20%, 265px);
   height: clamp(250px, 20%, 300px);
-  background-color: rgb(209, 218, 87);
+  background-color: rgb(115, 160, 161);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  padding: 10px;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 0 0 8px 3px #661a53;
 }
 
 .character-name {
+  font-size: 1.75rem;
+  color: rgb(8, 23, 41);
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.score {
+  font-size: 1.9rem;
+  font-weight: 500;
 }
