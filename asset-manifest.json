@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-card-project/static/css/main.e6c13ad2.css",
+    "main.js": "/memory-card-project/static/js/main.0237188a.js",
+    "static/media/Chokebot.png": "/memory-card-project/static/media/Chokebot.816a0027c2efa1c394ba.png",
+    "static/media/Woodhouse.png": "/memory-card-project/static/media/Woodhouse.91935bca3e238e1942c3.png",
+    "static/media/Lana.png": "/memory-card-project/static/media/Lana.13e97f71663b1cea7bee.png",
+    "static/media/Cheryl.png": "/memory-card-project/static/media/Cheryl.96ae5a7d8ce2aaa0923d.png",
+    "static/media/Krieger.png": "/memory-card-project/static/media/Krieger.2c3080d9f8d5fa8dd9dd.png",
+    "static/media/Pam.png": "/memory-card-project/static/media/Pam.b4c084f8dabeaa7c14c6.png",
+    "static/media/Malory.png": "/memory-card-project/static/media/Malory.f53fe89aea63c954db89.png",
+    "static/media/Sterling.png": "/memory-card-project/static/media/Sterling.cea128191195b2225954.png",
+    "static/media/Katya.png": "/memory-card-project/static/media/Katya.48adfe6c852955cb870c.png",
+    "static/media/Ray.png": "/memory-card-project/static/media/Ray.4e3e02ccc8d28faf0d4d.png",
+    "static/media/Cyril.png": "/memory-card-project/static/media/Cyril.4268ef044ccdc0ff833b.png",
+    "static/media/Barry.png": "/memory-card-project/static/media/Barry.dedb5bc934af0a33cf3b.png",
+    "index.html": "/memory-card-project/index.html",
+    "main.e6c13ad2.css.map": "/memory-card-project/static/css/main.e6c13ad2.css.map",
+    "main.0237188a.js.map": "/memory-card-project/static/js/main.0237188a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.0237188a.js"
+  ]
+}
