@@ -42,8 +42,6 @@ function GameView() {
       {chars.map((char, index) => {
         return (
           <Card
-            array={chars}
-            index={index}
             key={index}
             characterName={char}
             onCharClick={checkIfClicked}
