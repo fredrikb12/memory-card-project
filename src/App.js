@@ -1,12 +1,10 @@
-import Card from "./components/Card";
-import Image from "./components/Image";
+import GameView from "./components/GameView";
 
 function App() {
   return (
-    <div>
-      <Card characterName={"Barry"} />
-      <Card characterName={"Sterling"} />
-    </div>
+    <main id="content">
+      <GameView />
+    </main>
   );
 }
 
